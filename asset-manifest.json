@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1c3c5f7.css",
-    "main.js": "/static/js/main.fe96c2c7.js",
+    "main.css": "/static/css/main.13f16237.css",
+    "main.js": "/static/js/main.6254b7aa.js",
     "static/js/787.612e5507.chunk.js": "/static/js/787.612e5507.chunk.js",
-    "static/media/downtown.png": "/static/media/downtown.cc97c6e05bc6a3d5c402.png",
+    "static/media/textbox-3.png": "/static/media/textbox-3.c7ff07a0b8d47331e1d5.png",
+    "static/media/textbox-1.png": "/static/media/textbox-1.e1d3783f91c0442c6b06.png",
+    "static/media/textbox-4.png": "/static/media/textbox-4.8782c70a1dbae6270551.png",
+    "static/media/textbox-2.png": "/static/media/textbox-2.be1b16274ec9896a747b.png",
+    "static/media/downtown.png": "/static/media/downtown.51a5438b51ff29c4e0f5.png",
+    "static/media/bike.png": "/static/media/bike.80e5e482f4260d424e37.png",
     "static/media/workers.png": "/static/media/workers.e1006c5d3d0d0afe3963.png",
-    "static/media/bike.png": "/static/media/bike.c37ceda088688e7d68fa.png",
+    "static/media/house.png": "/static/media/house.b3c3027de05a3b36a673.png",
     "index.html": "/index.html",
-    "main.a1c3c5f7.css.map": "/static/css/main.a1c3c5f7.css.map",
-    "main.fe96c2c7.js.map": "/static/js/main.fe96c2c7.js.map",
+    "main.13f16237.css.map": "/static/css/main.13f16237.css.map",
+    "main.6254b7aa.js.map": "/static/js/main.6254b7aa.js.map",
     "787.612e5507.chunk.js.map": "/static/js/787.612e5507.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1c3c5f7.css",
-    "static/js/main.fe96c2c7.js"
+    "static/css/main.13f16237.css",
+    "static/js/main.6254b7aa.js"
   ]
 }
