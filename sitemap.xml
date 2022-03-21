@@ -13,32 +13,22 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.hmrul.tw/product.html</loc>
+  <loc>https://www.hmrul.tw/media</loc>
   <lastmod>2022-03-14T09:14:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.hmrul.tw/form.html</loc>
+  <loc>https://www.hmrul.tw/contact</loc>
   <lastmod>2022-03-14T09:14:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.hmrul.tw/media.html</loc>
+  <loc>https://www.hmrul.tw/about</loc>
   <lastmod>2022-03-14T09:14:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.hmrul.tw/contact.html</loc>
-  <lastmod>2022-03-14T09:14:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.hmrul.tw/about.html</loc>
-  <lastmod>2022-03-14T09:14:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.hmrul.tw/case.html</loc>
+  <loc>https://www.hmrul.tw/case</loc>
   <lastmod>2022-03-14T09:14:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
