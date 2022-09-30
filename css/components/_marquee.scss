@@ -1,0 +1,39 @@
+.marquee {
+  width: 100%;
+  z-index: 10;
+  padding: 3vw 0;
+  background-color: $black;
+  overflow: hidden;
+  margin-bottom: -5px;
+  &__content {
+    display: inline-block;
+    color: $red;
+    letter-spacing: 8px;
+    white-space: nowrap;
+    font-size: calc(14vw / $str-wid-m);
+    animation: marquee 15s infinite linear;
+    transform: translateX(100%);
+    a:link,
+    a:hover,
+    a:active {
+      color: $red;
+    }
+  }
+}
+@media (min-width: 750px) {
+  .marquee {
+    padding: 10px 0;
+    background-color: #f5ebdb;
+    border-top: 2px solid $red;
+    border-bottom: 2px solid $red;
+    &__content {
+      color: $blue;
+      font-size: 16px;
+      a:link,
+      a:hover,
+      a:active {
+        color: $blue;
+      }
+    }
+  }
+}

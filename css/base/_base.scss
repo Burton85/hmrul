@@ -1,0 +1,93 @@
+/* RWD Size */
+$S_devices: 576px;
+$M_devices: 768px;
+$L_devices: 992px;
+$XL_device: 1200px;
+
+$black: #494F57;
+$white: #eeeeee;
+$yellow: #fefbf6;
+$red: #d5573b;
+$red--2: #f1c5ac;
+$blue: #494F57;
+$blue--2: #494F57;
+$gray: #596367;
+$menu-bar: #c7a88b;
+$nav-bg: #054f53;
+$warn-bg: #c7a88b;
+$main: #c7a88b;
+$category-title: #1b6e76;
+
+// Font Import
+@font-face {
+    font-family: "GenSenRounded-B";
+    src: url(../../fonts/GenSenRounded-B.ttc);
+}
+@font-face {
+    font-family: "GenSenRounded-H";
+    src: url(../../fonts/GenSenRounded-H.ttc);
+}
+@font-face {
+    font-family: "GenSenRounded-R";
+    src: url(../../fonts/GenSenRounded-R.ttc);
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+
+$font-Serif: "Noto Serif TC", serif;
+$font-Sans: "Noto Sans TC", sans-serif;
+$font-gensen: "GenSenRounded-H";
+
+/* FontSize */
+$font-default: 1em;
+$font-normal: 1.125em;
+$font-m: 1.25em;
+$font-s: 0.875em;
+$font-xs: 0.75em;
+$font-l: 1.5em;
+$font-xl: 1.875em;
+
+// Font Size
+$content-primary: 20px;
+$content-secondary: 20px;
+$content-third: 20px;
+
+// RWD breakpoint
+$str-wid: 14.4;
+$str-wid-m: 3.2;
+
+@keyframes woofRotate {
+    0%{
+        transform: rotate(15deg) translateX(0);
+    }
+    10%{
+        transform: rotate(18deg) translateX(-10%) rotateZ(2deg);
+    }
+    20%{
+        transform: rotate(15deg) translateX(0);
+    }
+    30%{
+        transform: rotate(18deg) translateX(-10%) rotateZ(2deg);
+    }
+    40%{
+        transform: rotate(15deg) translateX(0);
+    }
+    50%{
+        transform: rotate(18deg) translateX(-10%) rotateZ(2deg);
+    }
+    60%{
+        transform: rotate(15deg) translateX(0);
+    }
+    70%{
+        transform: rotate(18deg) translateX(-10%) rotateZ(2deg);
+    }
+    80%{
+        transform: rotate(15deg) translateX(0);
+    }
+    90%{
+        transform: rotate(18deg) translateX(-10%) rotateZ(2deg);
+    }
+    100%{
+        transform: rotate(15deg) translateX(0);
+    }
+}

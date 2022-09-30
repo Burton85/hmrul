@@ -1,0 +1,86 @@
+.media {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: calc(10vw / $str-wid-m);
+    font-size: calc(20vw / $str-wid-m);
+    margin: calc(30vw / $str-wid-m) auto;
+    &__item {
+        position: relative;
+        display: inline-block;
+        border-radius: 20px;
+        border: 2px solid $gray;
+        background-color: $white;
+        opacity: 0.85;
+        min-height: calc(200vw / $str-wid-m);
+        padding: calc(10vw / $str-wid-m);
+        padding-bottom: 0;
+        color: $gray;
+        line-height: 1.5;
+        h3 {
+            font-size: 16px;
+        }
+        div {
+            display: inline-block;
+            width: calc(100% - 10vw / $str-wid-m - 40px);
+            position: relative;
+            padding: calc(20vw / $str-wid-m);
+            padding-left: 0;
+            padding-bottom: 0;
+            font-size: calc(6vw / $str-wid-m);
+            font-weight: 100;
+            border-top: 2px solid $gray;
+            border-right: 2px solid $gray;
+            border-top-right-radius: 30px;
+            background-color: $white;
+            transform: translateY(-20%);
+            span {
+                top: calc(-10vw / $str-wid-m);
+                font-size: calc(5vw / $str-wid-m);
+                position: absolute;
+                display: block;
+                padding: calc(2vw / $str-wid-m) calc(5vw / $str-wid-m);
+                border-radius: 20px;
+                border: 1px solid $gray;
+                background-color: $white;
+            }
+        }
+    }
+    &__date {
+        width: 40px;
+        font-size: calc(10vw / $str-wid-m);
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        right: calc(10vw / $str-wid-m);
+        margin-top: calc(10vw / $str-wid-m);
+    }
+}
+@media (min-width: 750px) {
+    .media {
+        grid-template-columns: 1fr 1fr;
+        margin: 80px 0 40px;
+        font-size: 16px;
+        &__item {
+            padding: 20px;
+            min-height: 300px;
+            h3 {
+                font-size: 24px;
+            }
+            div {
+                width: calc(100% - 60px);
+                padding: 30px 15px 0 0;
+                font-size: 16px;
+                span {
+                    font-size: 14px;
+                    top: -20px;
+                }
+            }
+        }
+        &__date {
+            font-size: 16px;
+            right: 20px;
+            margin-top: 50px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.map {
+    @include flex-col-center-center;
+    margin: calc(30vw / $str-wid-m) 0;
+    letter-spacing: 3px;
+    &__icon {
+        width: calc(20vw / $str-wid-m);
+        margin-right: calc(5vw / $str-wid-m);
+    }
+    &__title {
+        color: $red;
+        // text-align: left;
+    }
+    &__bar {
+        margin-top: 50px;
+        color: $blue;
+        text-align: center;
+        font-size: calc(20vw / $str-wid-m);
+        img {
+            width: calc(30vw / $str-wid-m);
+            margin: 0 2vw;
+        }
+    }
+}
+@media (min-width: 750px) {
+    .map {
+        margin: 20px 0 40px;
+        font-size: 24px;
+        width: 80%;
+        .google {
+            width: 100%;
+        }
+        &__icon {
+            width: 30px;
+            margin-left: 10px;
+        }
+        &__bar {
+            font-size: 24px;
+            img {
+                width: 30px;
+                margin: 0 20px;
+            }
+        }
+    }
+}
